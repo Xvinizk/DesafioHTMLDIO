@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Radioclínica</title>
+    <link rel="stylesheet" href="base.css">
+    <script>
+        function handleSubmit() {
+          // Lógica para tratar o envio do formulário
+          alert('Formulário enviado!');
+        }
+      </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="template.html">Pagína Inicial</a></li>
+                <li><a href="sobre.html">Sobre a clinica</a></li>
+                <li><a href="horario.html">Horário de atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="Fotos/Contato.jpg" title="Imagem de médicos" width="1000">
+            </div>
+    
+            <div class="content">
+               <h1>Entre em contato conosco</h1>
+               <p> <b>Email:</b> clinica@gmail.com</p>
+               <p> <b>Telefone:</b> 3228-2900 </p>
+               <p> <b>Whatssap:</b> 1195444-0611 </p>
+               <p> <b>Endereço:</b> R. Dr. Ricardo Vilela, 420 - Centro, Mogi das Cruzes - SP, 08710-150 </p>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3180582754344!2d-46.19415418255614!3d-23.52106019999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdd8165d0a03e7%3A0x12c976a049daefc!2sR.%20Dr.%20Ricardo%20Vilela%2C%20420%20-%20Centro%2C%20Mogi%20das%20Cruzes%20-%20SP%2C%2008710-150!5e0!3m2!1spt-BR!2sbr!4v1689117928150!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <h1>Envie a sua dúvida</h1>
+               <form name="Duvidas" method="post" autocomplete="off" onsubmit="handleSubmit(); return false;">
+                     <h3> Nome : <input type="text" name="nome" placeholder="Insira seu nome"> <br>
+                      Email : <input type="email" name="email" placeholder="Insira seu email"> <br>
+                      Assunto : <input type="text" name="assunto" placeholder="Insira o assunto"> <br>
+                      Mensagem : <textarea name="message" ></textarea> <br>
+                      <button type="button">Enviar</button>
+                      <button type="reset">Apagar</button>
+                    </h3>
+
+
+               </form>
+                
+            </div>
+    
+            <div class="footer">
+                <h2>Informações de contato</h2>
+                     <p>Email: clinica@gmail.com<p>   
+                     <p>Telefone: 3228-2900 <p>
+                     <p>Whatssap: 1195444-0611 <p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
